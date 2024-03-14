@@ -4,7 +4,8 @@ This tool creates a wordlist, based on a supplied prefix, optional deliminator a
 
 ## Build and Install
 ```sh
-git clone ###
+git clone https://github.com/sidsherrill1/s3-bucket-wordlist-generator.git
+cd s3-bucket-wordlist-generator
 go build concat_words.go
 ```
 
