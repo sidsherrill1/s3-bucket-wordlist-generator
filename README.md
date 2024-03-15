@@ -10,6 +10,9 @@ go build concat_words.go
 ```
 
 ## Usage
-```
+```sh
+# Produce new_words.txt
 ./concat_words -prefix=pre -delimiter=_ -wordlist=words.txt -output=new_words.txt
+# Pass new_words.txt to gobuster
+gobuster s3 -w output.txt
 ```
